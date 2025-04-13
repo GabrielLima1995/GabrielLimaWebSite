@@ -1891,3 +1891,19 @@ a:hover .journal {
     z-index: -999999;
     opacity: 0;
     }
+
+    @media screen and (max-width: 768px) {
+        .skills__container {
+          grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+          padding: 1rem;
+        }
+      
+        .skills__header {
+          justify-content: center;
+          text-align: center;
+        }
+      
+        .skills__container-box {
+          margin: 0 auto;
+        }
+      }
