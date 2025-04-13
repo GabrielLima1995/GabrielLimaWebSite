@@ -1891,7 +1891,7 @@ a:hover .journal {
     z-index: -999999;
     opacity: 0;
     }
-
+    
     @media screen and (max-width: 768px) {
         .skills__container {
           grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
@@ -1899,15 +1899,15 @@ a:hover .journal {
         }
       
         .skills__header {
-            width: 100%;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            text-align: center;
-            margin-bottom: 1rem;
+          width: 100%;
+          text-align: justify;
+          text-justify: inter-word; /* melhora o espaçamento entre palavras */
+          padding: 0 1rem;
+          margin-bottom: 1rem;
         }
       
         .skills__container-box {
           margin: 0 auto;
         }
       }
+      
