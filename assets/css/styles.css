@@ -1900,14 +1900,18 @@ a:hover .journal {
       
         .skills__header {
           width: 100%;
-          text-align: justify;
-          text-justify: inter-word; /* melhora o espaçamento entre palavras */
+          text-align: left;
           padding: 0 1rem;
           margin-bottom: 1rem;
         }
       
         .skills__container-box {
           margin: 0 auto;
+        }
+      
+        .skills__text {
+          text-align: justify; 
+          padding: 0 1rem;
         }
       }
       
